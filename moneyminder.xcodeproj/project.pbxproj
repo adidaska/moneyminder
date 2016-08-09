@@ -15,6 +15,7 @@
 		67235ECE1D5992DF00FD48C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */; };
 		67235ED91D5992DF00FD48C2 /* moneyminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235ED81D5992DF00FD48C2 /* moneyminderTests.swift */; };
 		67235EE41D5992DF00FD48C2 /* moneyminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */; };
+		67235EF21D59A4B700FD48C2 /* meg-logo-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		67235EDF1D5992DF00FD48C2 /* moneyminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyminderUITests.swift; sourceTree = "<group>"; };
 		67235EE51D5992DF00FD48C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meg-logo-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */,
 				67235ECF1D5992DF00FD48C2 /* Info.plist */,
 				67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */,
+				67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */,
 			);
 			path = moneyminder;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					67235EBC1D5992DE00FD48C2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 553JX76C73;
 					};
 					67235ED31D5992DF00FD48C2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -235,6 +239,7 @@
 				67235ECE1D5992DF00FD48C2 /* LaunchScreen.storyboard in Resources */,
 				67235ECB1D5992DF00FD48C2 /* Assets.xcassets in Resources */,
 				67235EC61D5992DF00FD48C2 /* Main.storyboard in Resources */,
+				67235EF21D59A4B700FD48C2 /* meg-logo-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = moneyminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = moneyminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
