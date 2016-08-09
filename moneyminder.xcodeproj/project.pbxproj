@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67235EC11D5992DF00FD48C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EC01D5992DF00FD48C2 /* AppDelegate.swift */; };
+		67235EC31D5992DF00FD48C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EC21D5992DF00FD48C2 /* ViewController.swift */; };
+		67235EC61D5992DF00FD48C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67235EC41D5992DF00FD48C2 /* Main.storyboard */; };
+		67235EC91D5992DF00FD48C2 /* moneyminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */; };
+		67235ECB1D5992DF00FD48C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67235ECA1D5992DF00FD48C2 /* Assets.xcassets */; };
+		67235ECE1D5992DF00FD48C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */; };
+		67235ED91D5992DF00FD48C2 /* moneyminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235ED81D5992DF00FD48C2 /* moneyminderTests.swift */; };
+		67235EE41D5992DF00FD48C2 /* moneyminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67235ED51D5992DF00FD48C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67235EB51D5992DE00FD48C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67235EBC1D5992DE00FD48C2;
+			remoteInfo = moneyminder;
+		};
+		67235EE01D5992DF00FD48C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67235EB51D5992DE00FD48C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67235EBC1D5992DE00FD48C2;
+			remoteInfo = moneyminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67235EBD1D5992DE00FD48C2 /* moneyminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67235EC01D5992DF00FD48C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67235EC21D5992DF00FD48C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67235EC51D5992DF00FD48C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67235EC81D5992DF00FD48C2 /* moneyminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moneyminder.xcdatamodel; sourceTree = "<group>"; };
+		67235ECA1D5992DF00FD48C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67235ECD1D5992DF00FD48C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67235ECF1D5992DF00FD48C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67235ED41D5992DF00FD48C2 /* moneyminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67235ED81D5992DF00FD48C2 /* moneyminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyminderTests.swift; sourceTree = "<group>"; };
+		67235EDA1D5992DF00FD48C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67235EDF1D5992DF00FD48C2 /* moneyminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyminderUITests.swift; sourceTree = "<group>"; };
+		67235EE51D5992DF00FD48C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67235EBA1D5992DE00FD48C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235ED11D5992DF00FD48C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235EDC1D5992DF00FD48C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67235EB41D5992DE00FD48C2 = {
+			isa = PBXGroup;
+			children = (
+				67235EBF1D5992DE00FD48C2 /* moneyminder */,
+				67235ED71D5992DF00FD48C2 /* moneyminderTests */,
+				67235EE21D5992DF00FD48C2 /* moneyminderUITests */,
+				67235EBE1D5992DE00FD48C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67235EBE1D5992DE00FD48C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67235EBD1D5992DE00FD48C2 /* moneyminder.app */,
+				67235ED41D5992DF00FD48C2 /* moneyminderTests.xctest */,
+				67235EDF1D5992DF00FD48C2 /* moneyminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67235EBF1D5992DE00FD48C2 /* moneyminder */ = {
+			isa = PBXGroup;
+			children = (
+				67235EC01D5992DF00FD48C2 /* AppDelegate.swift */,
+				67235EC21D5992DF00FD48C2 /* ViewController.swift */,
+				67235EC41D5992DF00FD48C2 /* Main.storyboard */,
+				67235ECA1D5992DF00FD48C2 /* Assets.xcassets */,
+				67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */,
+				67235ECF1D5992DF00FD48C2 /* Info.plist */,
+				67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */,
+			);
+			path = moneyminder;
+			sourceTree = "<group>";
+		};
+		67235ED71D5992DF00FD48C2 /* moneyminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				67235ED81D5992DF00FD48C2 /* moneyminderTests.swift */,
+				67235EDA1D5992DF00FD48C2 /* Info.plist */,
+			);
+			path = moneyminderTests;
+			sourceTree = "<group>";
+		};
+		67235EE21D5992DF00FD48C2 /* moneyminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */,
+				67235EE51D5992DF00FD48C2 /* Info.plist */,
+			);
+			path = moneyminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67235EBC1D5992DE00FD48C2 /* moneyminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67235EE81D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminder" */;
+			buildPhases = (
+				67235EB91D5992DE00FD48C2 /* Sources */,
+				67235EBA1D5992DE00FD48C2 /* Frameworks */,
+				67235EBB1D5992DE00FD48C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moneyminder;
+			productName = moneyminder;
+			productReference = 67235EBD1D5992DE00FD48C2 /* moneyminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67235ED31D5992DF00FD48C2 /* moneyminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67235EEB1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderTests" */;
+			buildPhases = (
+				67235ED01D5992DF00FD48C2 /* Sources */,
+				67235ED11D5992DF00FD48C2 /* Frameworks */,
+				67235ED21D5992DF00FD48C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67235ED61D5992DF00FD48C2 /* PBXTargetDependency */,
+			);
+			name = moneyminderTests;
+			productName = moneyminderTests;
+			productReference = 67235ED41D5992DF00FD48C2 /* moneyminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67235EDE1D5992DF00FD48C2 /* moneyminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67235EEE1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderUITests" */;
+			buildPhases = (
+				67235EDB1D5992DF00FD48C2 /* Sources */,
+				67235EDC1D5992DF00FD48C2 /* Frameworks */,
+				67235EDD1D5992DF00FD48C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67235EE11D5992DF00FD48C2 /* PBXTargetDependency */,
+			);
+			name = moneyminderUITests;
+			productName = moneyminderUITests;
+			productReference = 67235EDF1D5992DF00FD48C2 /* moneyminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67235EB51D5992DE00FD48C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MeG Studios";
+				TargetAttributes = {
+					67235EBC1D5992DE00FD48C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					67235ED31D5992DF00FD48C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 67235EBC1D5992DE00FD48C2;
+					};
+					67235EDE1D5992DF00FD48C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 67235EBC1D5992DE00FD48C2;
+					};
+				};
+			};
+			buildConfigurationList = 67235EB81D5992DE00FD48C2 /* Build configuration list for PBXProject "moneyminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67235EB41D5992DE00FD48C2;
+			productRefGroup = 67235EBE1D5992DE00FD48C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67235EBC1D5992DE00FD48C2 /* moneyminder */,
+				67235ED31D5992DF00FD48C2 /* moneyminderTests */,
+				67235EDE1D5992DF00FD48C2 /* moneyminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67235EBB1D5992DE00FD48C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67235ECE1D5992DF00FD48C2 /* LaunchScreen.storyboard in Resources */,
+				67235ECB1D5992DF00FD48C2 /* Assets.xcassets in Resources */,
+				67235EC61D5992DF00FD48C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235ED21D5992DF00FD48C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235EDD1D5992DF00FD48C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67235EB91D5992DE00FD48C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67235EC31D5992DF00FD48C2 /* ViewController.swift in Sources */,
+				67235EC11D5992DF00FD48C2 /* AppDelegate.swift in Sources */,
+				67235EC91D5992DF00FD48C2 /* moneyminder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235ED01D5992DF00FD48C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67235ED91D5992DF00FD48C2 /* moneyminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67235EDB1D5992DF00FD48C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67235EE41D5992DF00FD48C2 /* moneyminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67235ED61D5992DF00FD48C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67235EBC1D5992DE00FD48C2 /* moneyminder */;
+			targetProxy = 67235ED51D5992DF00FD48C2 /* PBXContainerItemProxy */;
+		};
+		67235EE11D5992DF00FD48C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67235EBC1D5992DE00FD48C2 /* moneyminder */;
+			targetProxy = 67235EE01D5992DF00FD48C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67235EC41D5992DF00FD48C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67235EC51D5992DF00FD48C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67235ECD1D5992DF00FD48C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67235EE61D5992DF00FD48C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67235EE71D5992DF00FD48C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67235EE91D5992DF00FD48C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moneyminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67235EEA1D5992DF00FD48C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moneyminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67235EEC1D5992DF00FD48C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = moneyminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyminder.app/moneyminder";
+			};
+			name = Debug;
+		};
+		67235EED1D5992DF00FD48C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = moneyminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyminder.app/moneyminder";
+			};
+			name = Release;
+		};
+		67235EEF1D5992DF00FD48C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = moneyminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = moneyminder;
+			};
+			name = Debug;
+		};
+		67235EF01D5992DF00FD48C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = moneyminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megstudios.moneyminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = moneyminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67235EB81D5992DE00FD48C2 /* Build configuration list for PBXProject "moneyminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67235EE61D5992DF00FD48C2 /* Debug */,
+				67235EE71D5992DF00FD48C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67235EE81D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67235EE91D5992DF00FD48C2 /* Debug */,
+				67235EEA1D5992DF00FD48C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67235EEB1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67235EEC1D5992DF00FD48C2 /* Debug */,
+				67235EED1D5992DF00FD48C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67235EEE1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67235EEF1D5992DF00FD48C2 /* Debug */,
+				67235EF01D5992DF00FD48C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67235EC81D5992DF00FD48C2 /* moneyminder.xcdatamodel */,
+			);
+			currentVersion = 67235EC81D5992DF00FD48C2 /* moneyminder.xcdatamodel */;
+			path = moneyminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67235EB51D5992DE00FD48C2 /* Project object */;
+}
