@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15D21" minimumToolsVersion="Automatic">
     <entity name="Status" syncable="YES"/>
-    <entity name="Transactions" syncable="YES"/>
-    <entity name="Users" syncable="YES"/>
+    <entity name="Transactions" representedClassName=".Transactions" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="transactions" inverseEntity="Users" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName=".Users" syncable="YES">
+        <attribute name="balance" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userPhoto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transactions" inverseName="users" inverseEntity="Transactions" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Users" positionX="-63" positionY="-18" width="128" height="45"/>
-        <element name="Status" positionX="-54" positionY="-9" width="128" height="45"/>
-        <element name="Transactions" positionX="-36" positionY="9" width="128" height="45"/>
+        <element name="Users" positionX="-470" positionY="-243" width="128" height="133"/>
+        <element name="Status" positionX="-18" positionY="-270" width="128" height="45"/>
+        <element name="Transactions" positionX="-36" positionY="9" width="128" height="118"/>
     </elements>
 </model>

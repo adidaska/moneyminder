@@ -16,6 +16,21 @@
 		67235ED91D5992DF00FD48C2 /* moneyminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235ED81D5992DF00FD48C2 /* moneyminderTests.swift */; };
 		67235EE41D5992DF00FD48C2 /* moneyminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */; };
 		67235EF21D59A4B700FD48C2 /* meg-logo-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */; };
+		67235EF41D5B863800FD48C2 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EF31D5B863800FD48C2 /* TransactionViewController.swift */; };
+		67235EF61D5B865D00FD48C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EF51D5B865D00FD48C2 /* SettingsViewController.swift */; };
+		67235EFC1D5BCEFF00FD48C2 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EF81D5BCEFF00FD48C2 /* Users+CoreDataProperties.swift */; };
+		67235EFD1D5BCEFF00FD48C2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EF91D5BCEFF00FD48C2 /* Users.swift */; };
+		67235EFE1D5BCEFF00FD48C2 /* Transactions+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EFA1D5BCEFF00FD48C2 /* Transactions+CoreDataProperties.swift */; };
+		67235EFF1D5BCEFF00FD48C2 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235EFB1D5BCEFF00FD48C2 /* Transactions.swift */; };
+		67235F021D5C1DE800FD48C2 /* moneyMinder-iphone-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235F001D5C1DE800FD48C2 /* moneyMinder-iphone-57x57.png */; };
+		67235F031D5C1DE800FD48C2 /* moneyMinder-iphone-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235F011D5C1DE800FD48C2 /* moneyMinder-iphone-114x114.png */; };
+		67235F051D5C28E100FD48C2 /* cog.svg in Resources */ = {isa = PBXBuildFile; fileRef = 67235F041D5C28E100FD48C2 /* cog.svg */; };
+		67235F071D5C2A3800FD48C2 /* cog.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 67235F061D5C2A3800FD48C2 /* cog.pdf */; };
+		67235F091D5CF09300FD48C2 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235F081D5CF09300FD48C2 /* HistoryTableViewController.swift */; };
+		67235F0B1D5CF7FB00FD48C2 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67235F0A1D5CF7FB00FD48C2 /* HistoryTableViewCell.swift */; };
+		67235F0E1D5D90D400FD48C2 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235F0C1D5D90D400FD48C2 /* default.png */; };
+		67235F0F1D5D90D400FD48C2 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67235F0D1D5D90D400FD48C2 /* default@2x.png */; };
+		67235F111D5D913600FD48C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67235F101D5D913600FD48C2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,21 @@
 		67235EE31D5992DF00FD48C2 /* moneyminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyminderUITests.swift; sourceTree = "<group>"; };
 		67235EE51D5992DF00FD48C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meg-logo-bg.png"; sourceTree = "<group>"; };
+		67235EF31D5B863800FD48C2 /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		67235EF51D5B865D00FD48C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		67235EF81D5BCEFF00FD48C2 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67235EF91D5BCEFF00FD48C2 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		67235EFA1D5BCEFF00FD48C2 /* Transactions+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transactions+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67235EFB1D5BCEFF00FD48C2 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		67235F001D5C1DE800FD48C2 /* moneyMinder-iphone-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moneyMinder-iphone-57x57.png"; sourceTree = "<group>"; };
+		67235F011D5C1DE800FD48C2 /* moneyMinder-iphone-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moneyMinder-iphone-114x114.png"; sourceTree = "<group>"; };
+		67235F041D5C28E100FD48C2 /* cog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cog.svg; sourceTree = "<group>"; };
+		67235F061D5C2A3800FD48C2 /* cog.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cog.pdf; sourceTree = "<group>"; };
+		67235F081D5CF09300FD48C2 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		67235F0A1D5CF7FB00FD48C2 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		67235F0C1D5D90D400FD48C2 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		67235F0D1D5D90D400FD48C2 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		67235F101D5D913600FD48C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +131,25 @@
 		67235EBF1D5992DE00FD48C2 /* moneyminder */ = {
 			isa = PBXGroup;
 			children = (
+				67235EF71D5BCEA500FD48C2 /* coreData */,
 				67235EC01D5992DF00FD48C2 /* AppDelegate.swift */,
 				67235EC21D5992DF00FD48C2 /* ViewController.swift */,
 				67235EC41D5992DF00FD48C2 /* Main.storyboard */,
+				67235EF31D5B863800FD48C2 /* TransactionViewController.swift */,
+				67235F081D5CF09300FD48C2 /* HistoryTableViewController.swift */,
+				67235F0A1D5CF7FB00FD48C2 /* HistoryTableViewCell.swift */,
+				67235EF51D5B865D00FD48C2 /* SettingsViewController.swift */,
 				67235ECA1D5992DF00FD48C2 /* Assets.xcassets */,
+				67235F101D5D913600FD48C2 /* Images.xcassets */,
 				67235ECC1D5992DF00FD48C2 /* LaunchScreen.storyboard */,
 				67235ECF1D5992DF00FD48C2 /* Info.plist */,
-				67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */,
 				67235EF11D59A4B700FD48C2 /* meg-logo-bg.png */,
+				67235F001D5C1DE800FD48C2 /* moneyMinder-iphone-57x57.png */,
+				67235F011D5C1DE800FD48C2 /* moneyMinder-iphone-114x114.png */,
+				67235F0C1D5D90D400FD48C2 /* default.png */,
+				67235F0D1D5D90D400FD48C2 /* default@2x.png */,
+				67235F041D5C28E100FD48C2 /* cog.svg */,
+				67235F061D5C2A3800FD48C2 /* cog.pdf */,
 			);
 			path = moneyminder;
 			sourceTree = "<group>";
@@ -129,6 +170,18 @@
 				67235EE51D5992DF00FD48C2 /* Info.plist */,
 			);
 			path = moneyminderUITests;
+			sourceTree = "<group>";
+		};
+		67235EF71D5BCEA500FD48C2 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				67235EF81D5BCEFF00FD48C2 /* Users+CoreDataProperties.swift */,
+				67235EF91D5BCEFF00FD48C2 /* Users.swift */,
+				67235EFA1D5BCEFF00FD48C2 /* Transactions+CoreDataProperties.swift */,
+				67235EFB1D5BCEFF00FD48C2 /* Transactions.swift */,
+				67235EC71D5992DF00FD48C2 /* moneyminder.xcdatamodeld */,
+			);
+			name = coreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +289,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67235F071D5C2A3800FD48C2 /* cog.pdf in Resources */,
 				67235ECE1D5992DF00FD48C2 /* LaunchScreen.storyboard in Resources */,
+				67235F0F1D5D90D400FD48C2 /* default@2x.png in Resources */,
+				67235F031D5C1DE800FD48C2 /* moneyMinder-iphone-114x114.png in Resources */,
+				67235F111D5D913600FD48C2 /* Images.xcassets in Resources */,
+				67235F021D5C1DE800FD48C2 /* moneyMinder-iphone-57x57.png in Resources */,
 				67235ECB1D5992DF00FD48C2 /* Assets.xcassets in Resources */,
 				67235EC61D5992DF00FD48C2 /* Main.storyboard in Resources */,
 				67235EF21D59A4B700FD48C2 /* meg-logo-bg.png in Resources */,
+				67235F051D5C28E100FD48C2 /* cog.svg in Resources */,
+				67235F0E1D5D90D400FD48C2 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +327,14 @@
 				67235EC31D5992DF00FD48C2 /* ViewController.swift in Sources */,
 				67235EC11D5992DF00FD48C2 /* AppDelegate.swift in Sources */,
 				67235EC91D5992DF00FD48C2 /* moneyminder.xcdatamodeld in Sources */,
+				67235EF61D5B865D00FD48C2 /* SettingsViewController.swift in Sources */,
+				67235F091D5CF09300FD48C2 /* HistoryTableViewController.swift in Sources */,
+				67235EFE1D5BCEFF00FD48C2 /* Transactions+CoreDataProperties.swift in Sources */,
+				67235EFC1D5BCEFF00FD48C2 /* Users+CoreDataProperties.swift in Sources */,
+				67235EFF1D5BCEFF00FD48C2 /* Transactions.swift in Sources */,
+				67235F0B1D5CF7FB00FD48C2 /* HistoryTableViewCell.swift in Sources */,
+				67235EF41D5B863800FD48C2 /* TransactionViewController.swift in Sources */,
+				67235EFD1D5BCEFF00FD48C2 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = moneyminder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -422,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = moneyminder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -497,6 +567,7 @@
 				67235EEA1D5992DF00FD48C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67235EEB1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +576,7 @@
 				67235EED1D5992DF00FD48C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67235EEE1D5992DF00FD48C2 /* Build configuration list for PBXNativeTarget "moneyminderUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +585,7 @@
 				67235EF01D5992DF00FD48C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
