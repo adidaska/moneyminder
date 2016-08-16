@@ -60,37 +60,51 @@ class ViewController: UIViewController {
                 }
             } else { // new app
                 
-//                let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
-//                let plistFile = documentsPath.stringByAppendingString("main.plist")
-//                var fileExists:Bool = NSFileManager.defaultManager().fileExistsAtPath(plistFile)
+                let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+                let plistFile = documentsPath.stringByAppendingString("/main.plist")
+                var fileExists:Bool = NSFileManager.defaultManager().fileExistsAtPath(plistFile)
                 let newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context)
                 
-//                if fileExists {
-//                    let pngPath = NSHomeDirectory().stringByAppendingString("Documents/UserImage.png")
-//                    
-//                    let userImage = UIImage(contentsOfFile: pngPath)
-//                    let dataDict = NSDictionary.init(contentsOfFile: plistFile)
-//                    let userName = dataDict?.objectForKey("UserName")
-//                    let oldBalance = dataDict?.objectForKey("Balance")
-//                    print(userImage.debugDescription)
-//                    print((userName?.string)!)
-//                    print(oldBalance?.string)
-//                    
-//                    newUser.setValue(userName, forKey: "name")
-//                    newUser.setValue(oldBalance as! NSDecimalNumber, forKey: "balance")
-//                    newUser.setValue(NSDate(), forKey: "createdDate")
-//                    newUser.setValue(NSDate(), forKey: "updatedDate")
-//                    let imageData = NSData(data: UIImagePNGRepresentation(userImage!)!)
-//                    newUser.setValue(imageData, forKey: "userPhoto")
-//                    
-//                } else {
+                if fileExists {
+                    let pngPath = NSHomeDirectory().stringByAppendingString("Documents/UserImage.png")
+                    print(pngPath)
+                    if let userImage = UIImage(contentsOfFile: pngPath) {
+                        print(userImage.debugDescription)
+                        let imageData = NSData(data: UIImagePNGRepresentation(userImage)!)
+                        newUser.setValue(imageData, forKey: "userPhoto")
+                    } else {
+                        let imageData = NSData(data: UIImageJPEGRepresentation(UIImage(named: ("meg-logo-bg"))!, 1.0)!)
+                        newUser.setValue(imageData, forKey: "userPhoto")
+                    }
+                    
+                    let dataDict = NSDictionary.init(contentsOfFile: plistFile)
+                    print(dataDict)
+                    if let userName = dataDict?.objectForKey("UserName") {
+                        newUser.setValue(userName, forKey: "name")
+                    } else {
+                        newUser.setValue("Money Minder", forKey: "name")
+                    }
+                    if let oldBalance = dataDict?.objectForKey("Balance") {
+                        newUser.setValue(oldBalance.floatValue as! NSDecimalNumber, forKey: "balance")
+                    } else {
+                        newUser.setValue(0.00, forKey: "balance")
+                    }
+                    print(newUser.valueForKey("balance"))
+                    print(newUser.valueForKey("name"))
+                    
+                    
+                    newUser.setValue(NSDate(), forKey: "createdDate")
+                    newUser.setValue(NSDate(), forKey: "updatedDate")
+                    
+                    
+                } else {
                     newUser.setValue("Money Minder", forKey: "name")
                     newUser.setValue(0.00, forKey: "balance")
                     newUser.setValue(NSDate(), forKey: "createdDate")
                     newUser.setValue(NSDate(), forKey: "updatedDate")
                     let imageData = NSData(data: UIImageJPEGRepresentation(UIImage(named: ("meg-logo-bg"))!, 1.0)!)
                     newUser.setValue(imageData, forKey: "userPhoto")
-//                }
+                }
 
                 do {
                     try context.save()
